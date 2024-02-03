@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height 100%*/
+}
+body{
+    background-image: linear-gradient(to right, #526126, #7B6823 );
+}
+main{
+    background-color: aliceblue;
+    border-radius: 20px;/*arredonda as bordas*/
+    box-shadow: 20px 20px 34px #213e249f; /*faz uma sombra no main*/
+    width: 600px; /*define o tamanho do "main"largura*/
+    padding: 10px;/*da um pouquinho de espacamento das laterais e de cima*/
+    margin: auto; /*centraliza o main independente do tamanho da tela*/
+}
+h1{
+    text-align: center;
+   color: #033B3D;
+   text-shadow: 2px 2px 2px #7497987a;/*1º quanto a sombra irá pro lado 2º o quanto a sombra ira para baixo 3º quanto ira espalhar*/
+}
+h2{
+  color: #033B3D;
+}
+p{
+    text-align: justify;
+}

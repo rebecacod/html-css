@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            min-width: 280px; /*tamanho minimo quando espreme o navegador*/
+            max-width: 800px; /*tamanho max quando abre o navegador*/
+            margin: auto; /*traz a main pro meio independente*/
+        }
+        img{
+            width: 100%;/* faz a img ficar do tamanho exato conforme aumenta ou diminui a janela*/
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, officia iusto repudiandae voluptate minus error harum! Repellat vel, deserunt expedita architecto omnis, labore beatae dolore tempore similique consectetur ad temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur doloremque corporis molestias unde, odio eaque nulla animi ad voluptas reprehenderit ullam veritatis, suscipit ipsam nam possimus maiores debitis cum adipisci. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam nihil beatae id ullam expedita omnis nostrum at, nam voluptas doloribus debitis dolorem. Reiciendis hic corrupti placeat iure maxime deleniti natus.</p>
+        <picture>
+            <source media="(max-width: 600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti rerum, amet ipsam porro voluptas illo, nostrum error ipsa exercitationem provident saepe totam soluta suscipit beatae placeat doloribus, dolorum nam autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti amet modi cumque in accusantium molestias minima similique illo quod, sed tenetur consectetur, ab quae nulla velit! Delectus sint rem aliquam.</p>
+    </main>
+</body>
+</html>

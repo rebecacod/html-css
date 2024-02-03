@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(141, 170, 170);
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(140, 140, 140);
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.207);
+        }
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        main{
+            background-color: rgb(223, 221, 219);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        section > article{
+            border-radius: 50px;
+        }
+        article{
+            background-color: rgb(224, 221, 221);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: azure;
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            color:rgb(225, 225, 223);
+            text-align: center;
+            padding: 5px;
+            margin: 1px;
+        }
+        footer >p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <h1>meu site</h1>
+       <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+       </nav>
+    </header>
+    <main>
+       <section id="assuntor">
+
+       </section>
+       <section >
+           <article>
+              <h2>noticias sobre o brasil</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veniam saepe perferendis unde dolore. Incidunt expedita ab quo praesentium natus corrupti beatae veniam laudantium, quasi mollitia modi veritatis, saepe distinctio!</p>
+              <aside>
+               <p>artigo escrito por jose da silva</p>
+              </aside>
+           </article>
+           <article>
+
+           </article>
+       </section>
+    </main>
+    <footer>
+     <p>deselvonvido by rebeca</p>
+    </footer><!--a sequencia do site é:
+          header(cabeçalho) > nav > links >
+           main > section > aside
+           
+         footer(rodapé) >  -->
+</body>
+</html>

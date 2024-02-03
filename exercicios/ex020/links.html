@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+  <style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+    }
+    a{
+        color: rgb(255, 0, 0);
+        text-decoration: none;/*text-deco= decora o seu text e "none" que dizer que é sem decoração*/
+    }
+    a:visited{/*seleciona os links visitados de outra cor que vc quiser*/
+        color: rgb(169, 75, 75);
+    }
+    a:hover{/*passar o mouse em cima muda a cor*/
+        text-decoration: underline;
+        color: rgb(202, 2, 2);
+    }
+    a:active{
+        color: blue;
+    }
+    a::before{
+        content: none;
+    }
+    a::backdrop{
+        color: aqua;
+    }
+  </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul type = square>
+        <li><a href="https://gustavoguanabara.github.io">repositorio github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">site do curso em video</a></li>
+    </ul>
+</body>
+</html>
