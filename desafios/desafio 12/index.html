@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ /*deixa todos os elementos sem margem e sem padin */
+            margin: 0px;
+            padding: 0px;
+        }
+        .sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+       :root{
+        --font1: verdana, geneva, tahoma, sans-serif;
+        --font2: 'Passion One', cursive;
+        --font3: 'Sriracha', cursive;
+       }
+
+
+        html, body{
+            min-height: 100vh; /*o tamanho minimo fica sendo 100% da view port*/
+            background-color: dark;
+            font-family: var (--font1);
+        }
+        header{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        header > h1 {
+            padding-top: 50px;
+            /*text-transform: uppercase; deixa tudo em maiusculo*/
+            font-variant: small-caps;
+            font-family: var(--font2);
+            font-size: 10vh;
+        }
+        header > p{
+            padding-bottom: 50px;
+        }
+        a{
+            color: white;
+            text-decoration: solid;
+            font-weight: bolder;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        section{
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            line-height: 2em;
+            padding-left: 30px;
+            font-family: var(--font3);
+            font-size: 1.5em;
+        }
+        section > p {
+            padding-bottom: 2em;
+        }
+        section.normal{
+            background-color: white;
+            color: black;
+        }
+        section.imagem{
+            background-color: rgba(0, 0, 0, 0.108);
+            color: white;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.341);
+            background-size: cover;
+            background-attachment: fixed; /* efeito paralax na imagem do site*/
+        }
+        section.imagem > p{
+            width: 350px;
+            background-color: rgba(0, 0, 0, 0.266);
+            padding: 20px;
+            text-shadow: 2px 2px 3px black;
+        }
+        section#img1{
+           background-image: url('background001.jpg');
+           background-position: center right;
+        }
+        section#img2{
+            background-image: url('background002.jpg');
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+                <header>
+                    <h1>Cordel Moderno</h1>
+                    Por 
+                    <a href="https://www.recantodasletras.com.br/autor_textos.php?id=9806" target="_blank">Milton Duarte</a>
+                </header>
+            <section class="normal">
+    
+                Estou ficando cansado <br>
+                Da tal tecnologia <br>
+                Só se fala por e-mail <br>
+                Mensagem curta e fria <br>
+                Twitter e Facebook <br>
+                Antes que eu caduque <br>
+                Vou dizer tudo em poesia. <br>
+            </section>
+
+        
+
+            <section class="imagem" id="img1">
+                <p>
+                    Não é mais como era antes <br>
+                    É tudo abreviado <br>
+                    "Você" só tem duas letras  <br>
+                    O "O" e o "E" foi riscado <br>
+                    Para declarar o amor <br>
+                    Basta botar uma flor <br>
+                    E um coração desenhado. <br>
+                </p>
+            </section>
+
+           
+
+            <section class="normal">
+                <p>
+                    Arroba agora não pesa <br>
+                    É parte de um endereço <br>
+                    Ponto final nem se usa <br>
+                    Ou vai até no começo <br>
+                    Agora é .com <br>
+                    Se o saite é muito bom <br>
+                    Ele vale um alto preço. <br>
+                    <br>
+                    Pra piorar a liguagem <br>
+                    O emoticom é um risco <br>
+                    Tem símbolo para tudo <br>
+                    Ponto e vírgula e um asterisco <br>
+                    Um beijo significa <br>
+                    Pra entender como fica <br>
+                    Decifre esse rabisco. <br>
+                </p>
+            </section>
+
+          
+
+            <section class="imagem" id="img2">
+                <p>
+                    tenho saudade das cartas <br>
+                    Escritas com a própria mão <br>
+                    Mandava no mês de Junho <br>
+                    Só chegava no Verão <br>
+                    Mas matava a saudade <br>
+                    Era texto de verdade <br>
+                    Nas linhas do coração. <br>
+                </p>
+            </section>
+
+            
+
+            <section class="normal">
+                <p>
+                    Agora, escrevo e envio <br>
+                    Chegando na mesma hora <br>
+                    Mas quando vou prosear <br>
+                    A pessoa foi embora <br>
+                    Abriu outro aplicativo <br>
+                    O mundo ficou cativo <br>
+                    Da tecnologia do agora. <br>
+                </p>
+                <br>
+                    <p>
+                        Felizmente, pra orar <br>
+                        Não precisa de internet <br>
+                        Deus escuta todo mundo <br>
+                        Se quiser, faça esse teste <br>
+                        Dois pontos são dois joelhos <br>
+                        Seus lábios são aparelhos <br>
+                        Deixe que Deus interprete. <br>
+                    </p>
+             
+            </section>
+
+            <footer>
+                <p>site criado <a href="https://rebecacod.github.io/" target="_blank">Rebeca Silva</a></p>
+            </footer>
+</body>
+</html> <br>
